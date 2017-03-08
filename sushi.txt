@@ -1,0 +1,21 @@
+
+1) Receive two integers as input (firstNum must be less than secondNum).
+
+2) Increment i to equal firstNum, until it is less than or equal to secondNum using.
+
+3) Using while loop, output all odd integers between firstNum and SecondNum using the following formula:
+
+        (firstNum % 2 != 0)
+
+4 ) Using while loop, output the sum of all even integers between firstNum and SecondNum using the
+following formula:
+
+        sum += (firstNum % 2 == 0)
+
+5) Using while loop, output squares of values 1 to 10
+
+6) Using while loop, output sum of the squares of odd integers using the following formula:
+
+        squareSum += (firstNum % 2 != 0)
+
+7) Using while loop, output all upper case letters using ASCII
