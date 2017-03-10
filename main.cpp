@@ -21,11 +21,14 @@ int main() {
     cout << "First number must be less than the second number you enter." << endl;
     cout << "Enter numbers:" << endl;
 
+    //Receive two integers as input
     cin >> firstNum >> secondNum;
 
     i = firstNum;
 
     // Output odd integers between first and second num
+    cout << "Odd integers between " << firstNum << " and " << secondNum << " are: " << endl;
+
     while (i <= secondNum)
     {
         if (i % 2 != 0){
@@ -34,6 +37,7 @@ int main() {
 
         i++;
     }
+
 
     i = firstNum;
     sum = 0;
@@ -50,15 +54,17 @@ int main() {
 
     cout << "Sum of even integers between " << firstNum << " and " << secondNum << " = " << sum << endl;
 
-    // Output squares of values 1 to 10
 
-    i = 0;
+    // Output squares of values 1 to 10
+    cout << "Number " << "Square of Number" << endl;
+    i = 1;
     while (i <= 10){
         cout << i << " " << pow (i, 2) << endl;
         i++;
     }
 
-    // Output square of sum of odd integers
+
+    // Output sum of the squares of odd integers
     i = firstNum;
     squareSum = 0;
 
@@ -71,10 +77,11 @@ int main() {
         i++;
     }
 
-    cout << "Sum of squares of odd integers between " << firstNum << " and " << secondNum << " = " << squareSum << endl;
+    cout << "Sum of the squares of odd integers between " << firstNum << " and " << secondNum << " = " << squareSum << endl;
 
 
-    // Output all uppercase letters
+    // Output all uppercase letters using ASCII
+    cout << "Upper case letters are: " << endl;
 
     i =65;
     while (i <= 90) {
